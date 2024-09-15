@@ -11,6 +11,7 @@ function App() {
     <Router>
       <div className="App">
         <Header />
+        <Hero />
         <Routes>
           <Route path="/" element={<Hero />} />
           <Route path="/about" element={<About />} />
